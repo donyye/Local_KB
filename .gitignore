@@ -1,0 +1,18 @@
+# Obsidian Git 同步排除项
+# 备份目录（旧格式备份，不需要入库）
+My-Case.bak/
+
+# 工作辅助目录（我的记忆/调试文件，不含笔记内容）
+.workbuddy/
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时验证目录（空残留，不入库）
+_verify_vault/
+
+# OneNote 导出临时源（已转换落库，原始 .mht 不需要）
+# 如需保留导出源做增量转换，注释掉下面这行
+# OneNote_Export_Tmp/
